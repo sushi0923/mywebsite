@@ -1,0 +1,638 @@
+body {
+    background-color: #f5f5f5;
+    margin: 0;
+}
+
+#screenWrapper {
+    height: fit-content;
+}
+
+#upperBarContainer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #003B46;
+    height: 70px;
+    width: 100%;
+}
+
+#leftUpperBarContainer {
+    display: flex;
+    margin-left: 40px;
+    margin-right: 40px;
+    height: 100%;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#leftUpperBarLogo {
+    display: flex;
+    height: 50px;
+    width: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10px;
+}
+
+#leftUpperBarText {
+    display: flex;
+    align-items: center;
+    font-size: 32px;
+    color: #f0f0f0;
+    font-family: "Roboto", sans-serif;
+    padding-left: 20px;
+    padding-right: 10px;
+    font-weight: 700;
+}
+
+#rightUpperBarContainer {
+    display: flex;
+    height: 100%;
+    margin-right: 60px;
+}
+
+.rightUpperBarOption {
+    display: flex;
+    width: fit-content;
+    height: 100%;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+    text-decoration: none;
+}
+
+.rightUpperBarOption:hover {
+    background-color: #004953;
+}
+
+.rightUpperBarText {
+    display: flex;
+    padding-right: 25px;
+    padding-left: 25px;
+    align-items: center;
+    font-size: 24px;
+    color: #f0f0f0;
+    font-family: "Newsreader", serif;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+#logoWrapper {
+    height: fit-content;
+    margin-top: 100px;
+    width: 100%;
+}
+
+#logoImg {
+    height: 100px;
+    width: auto;
+    margin-right: 20px;
+}
+
+#logoContainer {
+    display: flex;
+    height: fit-content;
+    justify-content: center;
+    width: 100%;
+}
+
+#logoText {
+    font-size: 100px;
+    font-family: "Roboto", sans-serif;
+    color: #003B46;
+    font-weight: 600;
+}
+
+#mottoContainer {
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    align-items: center;
+}
+
+#mottoText {
+    font-size: 80px;
+    font-family: "Oranienbaum", serif;
+    color: #003B46;
+    padding-top: 30px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 30px;
+}
+
+.bracket {
+    display: block;
+}
+
+.leftBracket {
+    margin-bottom: 80px;
+    margin-right: 10px;
+}
+
+.rightBracket {
+    margin-top: 80px;
+    margin-left: 10px;
+}
+
+.sectionDivider {
+    height: 1px;
+    width: 40%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 100px;
+    margin-bottom: 60px;
+    background-color: #003B46;
+}
+
+#contactContainer {
+    margin-top: 30px;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+}
+
+#contactTitle {
+    font-family: "Roboto", sans-serif;
+    font-size: 45px;
+    color: #003B46;
+    font-weight: 700;
+}
+
+#contactInfoWrapper {
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.contactInfoContainer {
+    height: fit-content;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.contactImage {
+    height: auto;
+    width: 120px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10px;
+}
+
+.contactDetail {
+    text-decoration: none;
+    color: #003B46;
+    font-size: 20px;
+    font-family: "Newsreader", serif;
+}
+
+#teamContainer {
+    height: fit-content;
+    margin-top: 30px;
+}
+
+#teamTitleContainer {
+    display: flex;
+    justify-content: center;
+}
+
+#teamTitle {
+    font-size: 45px;
+    font-family: "Roboto", sans-serif;
+    color: #003B46;
+    font-weight: 700;
+}
+
+#teamPhoto {
+    margin-top: 20px;
+    width: 40%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#teamStoryContainer {
+    width: 50%;
+    height: fit-content;
+    overflow-wrap: break-word;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+}
+
+#teamStory {
+    color: #003B46;
+    font-size: 22px;
+    font-family: "Newsreader", serif;
+    line-height: 1.1;
+    text-align: center;
+}
+
+#memberWrapper {
+    height: fit-content;
+    margin-top: 30px;
+}
+
+#memberTitleContainer {
+    display: flex;
+    justify-content: center;
+}
+
+#memberTitle {
+    font-size: 45px;
+    font-family: "Roboto", sans-serif;
+    color: #003B46;
+    font-weight: 700;
+}
+
+#memberContainer {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+#memberSecondContainer {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+.member {
+    width: 12%;
+    height: fit-content;
+}
+
+.memberName {
+    width: fit-content;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 35px;
+    color: #003B46;
+    font-family: "Newsreader", serif;
+    font-weight: 500;
+}
+
+.memberPhoto {
+    margin-top: 5px;
+    width: 100%;
+    height: auto;
+}
+
+.memberRole {
+    width: fit-content;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 24px;
+    font-weight: 400;
+    color: #003B46;
+    font-family: "Newsreader", serif;
+    overflow-wrap: break-word;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.endContainer {
+    padding-top: 10px;
+    margin-bottom: 60px;
+}
+
+.endLogoContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.endLogo {
+    height: 60px;
+    width: auto;
+    margin-right: 10px;
+}
+
+.endLogoName {
+    color: #003B46;
+    font-size: 50px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+}
+
+.endTextContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.endText {
+    font-family: "Oranienbaum", serif;
+    color: #003B46;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+#endTextContainerContact {
+    margin-top: 0px;
+}
+
+#testimonialWrapper {
+    height: fit-content;
+    margin-top: 60px;
+}
+
+#testimonialTitleContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+#testimonialTitle {
+    font-family: "Roboto", sans-serif;
+    font-size: 45px;
+    color: #003B46;
+    font-weight: 700;
+}
+
+#testimonialFirstContainer {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 150px;
+}
+
+#testimonialSecondContainer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.testimonialContainer {
+    width: 30%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.testimonialText {
+    color: #003B46;
+    font-family: "Oranienbaum", serif;
+    font-size: 34px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.testimonialPerson {
+    text-align: end;
+    color: #003B46;
+    font-family: "Oranienbaum", serif;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.quotationMarkStart {
+    transform: rotate(180deg);
+}
+
+.quotationMark {
+    width: 40px;
+    height: auto;
+}
+
+.testimonialBetween {
+    display: block;
+    width: 100%;
+}
+
+#surveryTitleContainer {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+#surveryTitle {
+    font-family: "Roboto", sans-serif;
+    font-size: 45px;
+    color: #003B46;
+    font-weight: 700;
+}
+
+#surveyContainer {
+    height: fit-content;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.surveyDataContainer {
+    width: 100%;
+    height: fit-content;
+    margin-top: 40px;
+}
+
+.surveyData {
+    font-family: "Roboto", sans-serif;
+    font-size: 35px;
+    color: #003B46;
+    font-family: "Newsreader", serif;
+}
+
+#introductionContainer {
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#introductionTitleContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    font-family: "Roboto", sans-serif;
+    font-size: 45px;
+    color: #003B46;
+    font-weight: 700;
+}
+
+#introductionTextContainer {
+    padding-top: 10px;
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.introductionVideo {
+    height: 400px;
+    width: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#introductionText {
+    width: 50%;
+    color: #003B46;
+    font-size: 22px;
+    font-family: "Newsreader", serif;
+    line-height: 1.1;
+    margin-bottom: 0;
+    margin-left: 30px;
+    overflow-wrap: break-word;
+    margin-top: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#problemContainer {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#problemTitleContainer {
+    display: flex;
+    justify-content: center;
+}
+
+#problemText {
+    color: #003B46;
+    font-size: 22px;
+    font-family: "Newsreader", serif;
+    line-height: 1.1;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+#solutionContainer {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#solutionTitleContainer {
+    display: flex;
+    justify-content: center;
+}
+
+#solutionText {
+    color: #003B46;
+    font-size: 22px;
+    font-family: "Newsreader", serif;
+    line-height: 1.1;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+#ourProductContainer {
+    width: 50%;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#ourProductTitleContainer {
+    display: flex;
+    justify-content: center;
+}
+
+#ourProductTextContainer {
+    padding-top: 30px;
+    display: flex;
+}
+
+#ourProductPhoto {
+    height: 350px;
+}
+
+#productDetailContainer {
+    margin-bottom: 0;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+#ourProductPrice {
+    color: #003B46;
+    font-size: 44px;
+    font-family: "Newsreader", serif;
+    line-height: 1.1;
+}
+
+#ourProductDetailContainer {
+    padding-left: 30px;
+    list-style-type: circle;
+    margin-top: 15px;
+}
+
+.ourProductDetail {
+    padding-top: 15px;
+    color: #003B46;
+    font-size: 24px;
+    font-weight: 300;
+    font-family: "Newsreader", serif;
+    line-height: 1.2;
+}
+
+#useContainer {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    height: fit-content;
+}
+
+#useTitleContainer {
+    display: flex;
+    justify-content: center;
+}
+
+#useDetailConatiner {
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+#useLeftContainer {
+    width: 50%;
+    height: fit-content;
+}
+
+#useRightContainer {
+    width: 50%;
+    height: 100%;
+}
+
+#useImage1 {
+    width: 100%;
+    height: auto;
+}
+
+#useImage2 {
+    display: block;
+    width: 40%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
+
+#useImage3 {
+    display: block;
+    height: auto;
+    width: 100%;
+    padding-left: 10px;
+    margin-top: 20px;
+}
+
+#useImage4 {
+    display: block;
+    width: 80%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.verticalDivider {
+    width: 1px;
+    height: auto;
+    background-color: #003B46;
+}
